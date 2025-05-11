@@ -126,6 +126,12 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
+span.manipulation {
   background-color: #ffffd0;
+}
+span.navigation {
+  background-color: #d0ffd0; /* light green */
+}
+span.sensor {
+  background-color: #cce5ff; /* light blue */
 }

@@ -45,12 +45,15 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                 <!-- My primary research goal is to develop machine learning algorithms that enable the usage of robots in everyday life. 
-                 Potential paths to reach this goal include imitation learning and reinforcement learning.
-                 A key challenge for imitation learning is the difficulty of collecting high-quality demonstrations, which are costly and time-consuming. 
-                 Reinforcement learning, on the other hand, is usually inefficient for real robots due to its reliance on extensive trial and error. 
-                 To overcome these challenges, I focus on developing scalable robot learning methods that combine imitation learning and reinforcement learning. -->
-                Representative papers are <span class="highlight">highlighted</span>.
+                 My primary research goal is to develop hybrid robotic learning algorithms that combine classical optimization techniques with modern learning-based methods such as imitation learning and reinforcement learning.
+                 Many robotics problems involve both components that are well understood and easy to model—such as geometry, kinematics, and task constraints—as well as components that are hard to model explicitly, like contact dynamics, compliance behavior, or human-level decision making.
+                 To address this, I propose a divide-and-conquer approach: <strong>The easy-to-model parts</strong> (e.g., geometric coverage, motion constraints) are handled using classical optimization or planning techniques, ensuring that optimality and task structure are preserved;
+                 <strong>The hard-to-model parts</strong>(e.g., force adaptation, tactile strategies, or visual feedback) are addressed using model-free reinforcement learning or learning from human demonstrations, where explicit modeling is intractable or overly complex.
+                 This hybrid strategy enables scalable, data-efficient learning by minimizing the burden on the learning component while leveraging domain knowledge and structure where available.
+                 <br>
+                 Ultimately, my goal is to design modular and generalizable learning systems that retain theoretical optimality and adaptive in unstructured and contact-rich environments using dual-arm robots.
+                 <br>
+                 Representative papers are highlighted according to their application domain:  <span class="navigation">navigation</span>, <span class="manipulation">manipulation</span>, and <span class="sensor">sensors</span>.
               </p>
             </td>
           </tr>
@@ -129,6 +132,7 @@
                     Björn Hein,
                     Ilona Croy
                     <br>
+                    <br>
                     2025 IEEE-RAS-EMBS International Conference on Rehabilitation Robotics (ICORR)
                     <br>
                     <a href="">arXiv</a>
@@ -158,7 +162,7 @@
                     <strong>Yucheng Tang</strong>,
                     Ilshat Mamaev,
                     Björn Hein,
-                    Christian Wurll,
+                    Christian Wurll<br>
                     <br>
                     Robotics and Autonomous Systems 2024, Volume 179
                     <br>
